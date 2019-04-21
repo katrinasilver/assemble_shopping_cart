@@ -1,1 +1,53 @@
 @charset "utf-8";
+
+$colors: (
+  'primary': #034abd,
+  'offwhite': #ececec,
+);
+
+
+body {
+  background: map-get($colors, 'offwhite');
+
+  h1 {
+    font-weight: 300;
+  }
+}
+
+.btn {
+  border-radius: 0;
+  color: #fff;
+  font-size: .8rem;
+  padding: .75rem 1rem;
+  text-transform: uppercase;
+
+  &:hover {
+    color: map-get($colors, 'offwhite');
+  }
+}
+
+.line-item {
+
+  .thumb {
+    background: #fff;
+    height: 150px;
+    overflow: hidden;
+    width: 150px;
+  
+    img {
+      height: auto;
+      max-width: 100px;
+    }
+  }
+}
+
+
+@each $color, $color_value in $colors {
+  .#{$color} {
+    background-color: $color_value !important;
+  }
+
+  .#{$color}-text {
+    color: $color_value !important;
+  }
+}
