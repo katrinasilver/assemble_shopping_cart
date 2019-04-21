@@ -1,2 +1,31 @@
-.btn-primary {
-  border-radius: 0; }
+body {
+  background: #ececec; }
+  body h1 {
+    font-weight: 300; }
+
+.btn {
+  border-radius: 0;
+  font-size: .8rem;
+  padding: .75rem 1rem;
+  text-transform: uppercase; }
+
+.line-item .thumb {
+  background: #FFFFFF;
+  height: 150px;
+  overflow: hidden;
+  width: 150px; }
+  .line-item .thumb img {
+    height: auto;
+    max-width: 100px; }
+
+.primary {
+  background-color: #034abd !important; }
+
+.primary-text {
+  color: #034abd !important; }
+
+.offwhite {
+  background-color: #ececec !important; }
+
+.offwhite-text {
+  color: #ececec !important; }

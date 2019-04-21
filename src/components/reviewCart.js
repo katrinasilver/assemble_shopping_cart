@@ -21,13 +21,17 @@ export default class ReviewCart extends PureComponent {
 
   render() {
     return (
-      <div className="container mt-5">
+      <div className="container mt-5 table-responsive">
         <table className="table table-borderless">
           <thead>
             <tr>
               <th scope="col"><h1>Your Cart</h1></th>
-              <th scope="col">Quantity</th>
-              <th scope="col">Price</th>
+              <th scope="col">
+                <small className="initialism text-muted">Quantity</small>
+              </th>
+              <th scope="col">
+                <small className="initialism text-muted">Price</small>
+              </th>
             </tr>
           </thead>
           <tbody>
