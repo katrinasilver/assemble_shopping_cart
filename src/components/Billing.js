@@ -12,10 +12,9 @@ const Billing = props => {
           <label htmlFor="inputCard">Card Number</label>
           <input type="number" className="form-control" id="inputCard" placeholder="XXXX XXXX XXXX XXXX" />
         </div>
-        <div className="form-row">
-          <div className="form-group col-md-4">
-            <input type="date" className="form-control" id="inputMonth" placeholder="MM" />
-          </div>
+        <div className="form-group">
+          <label htmlFor="inputMonth">Expiration Date</label>
+          <input type="date" className="form-control" id="inputMonth" />
           {/* <div className="form-group col-md-4">
             <input type="date" className="form-control" id="inputYear" placeholder="YYYY" />
           </div> */}
