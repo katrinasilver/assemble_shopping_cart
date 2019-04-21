@@ -25,7 +25,7 @@ export default class ReviewCart extends PureComponent {
         <table className="table table-borderless">
           <thead>
             <tr>
-              <th scope="col">Your Cart</th>
+              <th scope="col"><h1>Your Cart</h1></th>
               <th scope="col">Quantity</th>
               <th scope="col">Price</th>
             </tr>

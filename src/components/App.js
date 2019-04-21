@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
 import BillingShipping from './BillingShipping'
 import OrderComplete from './OrderComplete'
 import ReviewCart from './ReviewCart'
@@ -11,7 +11,9 @@ class App extends PureComponent {
       <BrowserRouter>
         <div className="App">
           <header className="bg-primary p-3">
-            <div className="container text-white">Assemble Store</div>
+            <div className="container">
+              <Link className="text-white" to='/'>Assemble Store</Link>
+            </div>
           </header>
 
           <Switch>
