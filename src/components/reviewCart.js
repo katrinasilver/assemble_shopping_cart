@@ -50,7 +50,7 @@ export default class ReviewCart extends PureComponent {
           </tr>
           </tbody>
         </table>
-        <Link to={`/billing-details`} className="btn-primary btn">Checkout</Link>
+        <Link to={`/billing-details`} className="primary btn">Checkout</Link>
       </div>
     )
   }

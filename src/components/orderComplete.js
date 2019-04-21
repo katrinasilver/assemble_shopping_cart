@@ -6,7 +6,7 @@ const Products = props => {
     <section className="container mt-5">
       <h1>Order Complete</h1>
       <p>Hooray! Way to order those products</p>
-      <Link to={`/`} className="btn-primary btn text-center">Go Home</Link>
+      <Link to={`/`} className="primary btn text-center">Go Home</Link>
     </section>
   )
 }

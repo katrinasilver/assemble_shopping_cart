@@ -5,12 +5,15 @@ body {
 
 .btn {
   border-radius: 0;
+  color: #fff;
   font-size: .8rem;
   padding: .75rem 1rem;
   text-transform: uppercase; }
+  .btn:hover {
+    color: #ececec; }
 
 .line-item .thumb {
-  background: #FFFFFF;
+  background: #fff;
   height: 150px;
   overflow: hidden;
   width: 150px; }

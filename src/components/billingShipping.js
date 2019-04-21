@@ -28,7 +28,7 @@ export default class BillingShipping extends PureComponent {
           <Shipping />
         </div>
 
-        <Link to={`/order-complete`} className="btn-primary btn">Place Order</Link>
+        <Link to={`/order-complete`} className="primary btn">Place Order</Link>
       </div>
     )
   }

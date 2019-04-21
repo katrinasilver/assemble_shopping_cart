@@ -10,7 +10,7 @@ class App extends PureComponent {
     return (
       <BrowserRouter>
         <div className="App">
-          <header className="bg-primary p-3">
+          <header className="primary p-3">
             <div className="container">
               <Link className="text-white" to='/'>Assemble Store</Link>
             </div>
