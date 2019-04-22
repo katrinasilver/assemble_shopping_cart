@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react'
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
-import BillingShipping from './BillingShipping'
-import OrderComplete from './OrderComplete'
-import ReviewCart from './ReviewCart'
+import BillingShipping from './billingShipping'
+import OrderComplete from './orderComplete'
+import ReviewCart from './reviewCart'
 
 class App extends PureComponent {
 
